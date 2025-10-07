@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 400px;
+  height: 650px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.immagine1 {
+  margin: -50px;
+}
+
+.btnsave {
+  font-weight: 700;
+  font-size: 19px;
+  color: white;
+  background-color: red;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  opacity: 0;
+  padding: 15px 20px;
+  border-radius: 50px;
+}
+
+.container:hover .btnsave {
+  opacity: 1;
+}
+
+.sidebar-inferiore {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 30px;
+}
+
+.sidebar-inferiore div {
+  background-color: white;
+  padding: 10px 10px;
+  border-radius: 20px;
+  opacity: 0;
+}
+
+div.relink {
+  padding: 10px 15px;
+}
+
+.container:hover .sidebar-inferiore div {
+  opacity: 1;
+}
